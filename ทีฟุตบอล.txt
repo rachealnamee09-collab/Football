@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Liverpool F.C. Fanpage</title>
+    <style>
+        body { background-color: #f9f9f9; font-family: sans-serif; margin: 0; color: #333; }
+        header { background-color: #C8102E; color: white; padding: 25px; text-align: center; }
+        nav { background-color: #00b2a9; padding: 12px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 16px; }
+        nav a:hover { text-decoration: underline; }
+        .container { padding: 20px; max-width: 800px; margin: 20px auto; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h2 { color: #C8102E; border-bottom: 2px solid #00b2a9; padding-bottom: 8px; }
+        footer { background-color: #222; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Liverpool Football Club</h1>
+        <p>You'll Never Walk Alone</p>
+    </header>
+
+    <nav>
+        <a href="#home">หน้าแรก</a>
+        <a href="#history">ประวัติทีม</a>
+        <a href="#players">รายชื่อผู้เล่น</a>
+        <a href="#achievements">ผลงาน</a>
+        <a href="#contact">ติดต่อผู้พัฒนา</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>ยินดีต้อนรับสู่เว็บแฟนคลับลิเวอร์พูล</h2>
+        <p>เว็บไซต์นี้รวบรวมข้อมูลเกี่ยวกับสโมสรลิเวอร์พูล ทั้งประวัติความเป็นมา นักเตะ และถ้วยรางวัลแห่งความภาคภูมิใจ</p>
+    </div>
+
+    <div class="container" id="history">
+        <h2>ประวัติความเป็นมา</h2>
+        <p>สโมสรลิเวอร์พูลก่อตั้งขึ้นในปี ค.ศ. 1892 (พ.ศ. 2435) โดย จอห์น ฮอลดิง (John Houlding) ผู้เป็นเจ้าของสนามแอนฟิลด์ ทีมได้สร้างตำนานและคว้าแชมป์มาประดับสโมสรมากมายจนถึงปัจจุบัน</p>
+    </div>
+
+    <div class="container" id="players">
+        <h2>รายชื่อผู้เล่นคนสำคัญ</h2>
+        <ul>
+            <li>โมฮาเหม็ด ซาลาห์ (กองหน้า)</li>
+            <li>เวอร์จิล ฟาน ไดจ์ค (กองหลัง)</li>
+            <li>อลิสซอน เบ็คเกอร์ (ผู้รักษาประตู)</li>
+        </ul>
+    </div>
+
+    <div class="container" id="achievements">
+        <h2>ผลงานและความสำเร็จ</h2>
+        <p>ลิเวอร์พูลเป็นหนึ่งในทีมที่ประสบความสำเร็จมากที่สุดในอังกฤษ โดยคว้าแชมป์ลีกสูงสุด 19 สมัย และแชมป์ยูฟ่าแชมเปียนส์ลีก (ยูโรเปียนคัพ) อีก 6 สมัย</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>ติดต่อผู้พัฒนาเว็บ</h2>
+        <p><strong>ชื่อผู้พัฒนา:</strong> คุณราเชล</p>
+        <p><strong>Line ID:</strong> 0882677236</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Liverpool Fanpage | ออกแบบและพัฒนาโดย คุณราเชล</p>
+    </footer>
+
+</body>
+</html>
